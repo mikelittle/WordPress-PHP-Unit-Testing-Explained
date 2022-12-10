@@ -24,7 +24,10 @@
         "platform": {
             "php": "7.3"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "roots/wordpress-core-installer": true
+        }
     },
   "extra": {
     "wordpress-install-dir": "vendor/wordpress"
